@@ -2,7 +2,7 @@ import { Play, Download, Ellipsis } from "lucide-react"
 
 const NowTrending = () => {
   return (
-    <div className="h-130 pr-10 mb-4">
+    <div className="h-130 pr-8">
       <div className="h-full rounded-2xl overflow-hidden relative border-2 border-[#222]">
         <img className="w-full h-full object-cover object-top" src="https://images8.alphacoders.com/661/thumb-1920-661199.png" alt="Image" />
         <div className="absolute top-0 w-full h-full p-5 bg-linear-to-r from-[#000000dd] to-transparent flex flex-col justify-between gap-4">

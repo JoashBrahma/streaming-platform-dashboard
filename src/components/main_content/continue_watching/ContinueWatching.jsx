@@ -27,8 +27,8 @@ const ContinueWatching = () => {
 
   return (
     <div className="w-full flex flex-col">
-      <div className="flex justify-between items-center py-4 pr-10 mb-3">
-        <h2 className="text-3xl font-medium">Continue Watching</h2>
+      <div className="flex justify-between items-center py-2 mb-2 pr-8">
+        <h2 className="text-2xl font-medium">Continue Watching</h2>
         <button className="bg-[#ffffff22] py-1 px-3 rounded-md">See All</button>
       </div>
       <div className={`w-full flex gap-4 overflow-x-scroll ${style.cards}`}>

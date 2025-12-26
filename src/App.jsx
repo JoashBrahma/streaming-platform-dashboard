@@ -3,7 +3,7 @@ import MainContent from "./components/main_content/MainContent.jsx"
 
 const App = () => {
   return (
-    <div className="min-h-screen flex gap-4">
+    <div className="h-screen flex gap-4 overflow-hidden">
       <Sidebar />
       <MainContent />
     </div>
